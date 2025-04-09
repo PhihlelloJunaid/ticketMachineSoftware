@@ -13,7 +13,6 @@ public class Event {
     public String location;
 
     private Event (Builder builder){
-
         this.eventID = builder.eventID;
         this.eventName = builder.eventName;
         this.description = builder.description;
